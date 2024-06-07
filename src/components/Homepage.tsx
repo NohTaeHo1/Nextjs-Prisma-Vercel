@@ -1,5 +1,9 @@
 "use client";
 
+import { Box } from '@mui/material';
+import Typography from '@mui/material/Typography';
+
+
 export default function Home() {
   function handleUsername(e: any): void {
     throw new Error("Function not implemented.");
@@ -14,6 +18,7 @@ export default function Home() {
   }
 
   return (
+    
     <div className="text-center">
       <div className="text-3xl font-bold underline"></div>
       <tr>
@@ -33,6 +38,16 @@ export default function Home() {
           }}
         ></div>
       </div>
+      <Typography
+        variant='subtitle1'
+        gutterBottom
+        sx={{color: 'green', mt: 3}}>
+          넥스트 샘플 페이지
+          <Box sx={{ color: 'grey', fontSize: 10}}>
+            프리즈마 / 버셀 / 리덕스 설정 완료
+          </Box>
+        </Typography>
+
 
       <br />
       <div className="flex items-center justify-center  w-full px-5 sm:px-0">
