@@ -1,29 +1,24 @@
 "use client";
 
-
 export default function Home() {
+  function handleUsername(e: any): void {
+    throw new Error("Function not implemented.");
+  }
 
+  function handlePassword(e: any): void {
+    throw new Error("Function not implemented.");
+  }
 
-    function handleUsername(e:any): void {
-        throw new Error("Function not implemented.");
-    }
-
-    function handlePassword(e:any): void {
-        throw new Error("Function not implemented.");
-    }
-
-    function handleSubmit(e:any): void {
-        throw new Error("Function not implemented.");
-    }
+  function handleSubmit(e: any): void {
+    throw new Error("Function not implemented.");
+  }
 
   return (
     <div className="text-center">
       <div className="text-3xl font-bold underline"></div>
       <tr>
-      <td
-              className="w-full bg-white  p-20 h-2 "
-            ></td>
-            </tr>
+        <td className="w-full bg-white  p-20 h-2 "></td>
+      </tr>
 
       <div className="flex items-center justify-center w-full h-20">
         <div
@@ -51,7 +46,7 @@ export default function Home() {
           <div className="w-full p-8 lg:w-1/2">
             <div className="mt-4">
               <label className="block text-gray-700 text-sm font-bold mb-2 text-left">
-                ID : 
+                ID :
               </label>
               <input
                 onChange={handleUsername}
@@ -64,7 +59,7 @@ export default function Home() {
             <div className="mt-4 flex flex-col justify-between">
               <div className="flex justify-between">
                 <label className="block text-gray-700 text-sm font-bold mb-2">
-                  Password : 
+                  Password :
                 </label>
               </div>
               <input
@@ -75,10 +70,9 @@ export default function Home() {
               <a
                 href="#"
                 className="text-xs text-gray-500 hover:text-gray-900 text-end w-full mt-2"
-              >
-              </a>
+              ></a>
             </div>
-  
+
             <div className="mt-8">
               <button
                 onClick={handleSubmit}
@@ -94,8 +88,13 @@ export default function Home() {
               <div className="flex px-5 justify-center w-full py-3">
                 <div className="min-w-[30px]">
                   <svg className="h-6 w-6" viewBox="0 0 40 40">
-                  <image href="/user/img/Logo.png" x="0" y="0" width="40" height="40" />
-
+                    <image
+                      href="/user/img/Logo.png"
+                      x="0"
+                      y="0"
+                      width="40"
+                      height="40"
+                    />
                   </svg>
                 </div>
                 <div className="flex w-full justify-center">
@@ -106,9 +105,7 @@ export default function Home() {
               </div>
             </a>
             <tr>
-            <td
-              className="w-full bg-white  h-20 "
-            ></td>
+              <td className="w-full bg-white  h-20 "></td>
             </tr>
           </div>
         </div>
