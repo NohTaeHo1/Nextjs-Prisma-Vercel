@@ -28,11 +28,16 @@
     "jwt-decode":"4.0.0",
     "react-hook-form":"7.51.3",
     "qs":"6.12.1",
-    "@types/qs":"6.9.15"
-
+    "@types/qs":"6.9.15",
+    "cookie": "^0.6.0",
+    "daisyui": "^3.9.4",
+    "jose": "^5.1.0",
+    "nextjs13-progress": "^1.1.45",
+    "react-icons": "^4.11.0"
   },
   "devDependencies": {
     "@reduxjs/toolkit": "2.2.2",
+    "@types/cookie": "^0.5.4",
     "@types/node": "^20",
     "@types/react": "^18",
     "@types/react-dom": "^18",
